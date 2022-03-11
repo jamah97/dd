@@ -7,8 +7,8 @@ import numpy as np
 import time,json
 
 # Data Viz Pkg
+import matplotlib as m
 import matplotlib.pyplot as plt 
-import matplotlib
 matplotlib.use("Agg")
 import seaborn as sns
 import altair as alt 
