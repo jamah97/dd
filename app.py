@@ -67,7 +67,7 @@ def main():
 		st.write("""Content: 
 		The datasets consists of several medical predictor variables and one target variable, Outcome. Predictor variables includes the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.""")
 
-		st.write("""Datasource: 
+		st.write("""Datasource : 
 		https://www.kaggle.com/uciml/pima-indians-diabetes-database """)
 		st.write(""" Dataset biases/shortcomings:
 		There is a regional bias as all of the participants are of Pima Indian heritage. Also all of the participants are female and the dataset consist of only 768 participants. Being aware of these biases is key to understanding predictions made on the ML section of this app, as the training and test datasets used to build the model have these shortcomings.""")
