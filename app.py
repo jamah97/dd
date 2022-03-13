@@ -34,7 +34,7 @@ def main():
 	if choice =='About':
 		st.subheader("About section")
 
-		st.write(""" App created by Hassan Jama. The app has 2 other section EDA and ML model you will be able to check them out on the side bar.""")
+		st.write(""" App created by Hassan Jama. The app has 2 other section EDA and ML model you can check them out on the side bar.""")
 		st.write(""" About dataset:
 		This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset. Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage. """)
 
@@ -47,7 +47,7 @@ def main():
 		There is a regional bias as all of the participants are of Pima Indian heritage. Also all of the participants are female and the dataset consist of only 768 participants. Being aware of these biases is key to understanding predictions made on the ML section of this app, as the training and test datasets used to build the model have these shortcomings.""")
 
 		st.write("""Algorithm used:
-		The algroithm used on the ML section of the app is an Logistic Regression with an accuracy score of 81.3%. To learn more about decision trees algrothim click on this link https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html""")
+		The algroithm used on the ML section of the app is an Logistic Regression with an accuracy score of 81.3%. To learn more about logistic regression algrothim click on this link https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html""")
 
 
 
